@@ -1,0 +1,32 @@
+* {
+    font-family: "gotham_bookregular";
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #ff6600 !important;
+    
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+option{
+    background-color: #ff6600 !important;
+}
+span{
+    font-size: 100px;
+}
+
+#modele_input{
+    display: none;
+}
+#type_input{
+    display: none;
+}
+.second_nav{
+    display: none;
+}
