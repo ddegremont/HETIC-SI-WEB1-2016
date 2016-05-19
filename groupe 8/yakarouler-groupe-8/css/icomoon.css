@@ -1,0 +1,75 @@
+/** FONT ICON **/
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?stroz7');
+    src:    url('../fonts/icomoon.eot?stroz7#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?stroz7') format('truetype'),
+        url('../fonts/icomoon.woff?stroz7') format('woff'),
+        url('../fonts/icomoon.svg?stroz7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-car:before {content: "\e900";}
+
+.icon-car-wheel:before {content: "\e901";}
+
+.icon-checked:before {content: "\e902";}
+
+.icon-facebook:before {content: "\e903";}
+
+.icon-france:before {content: "\e904";}
+
+.icon-gas:before {content: "\e905";}
+
+.icon-google-plus:before {content: "\e906";}
+
+.icon-home-button:before {content: "\e907";}
+
+.icon-location-pin:before {content: "\e908";}
+
+.icon-locked-padlock:before {content: "\e909";}
+
+.icon-map:before {content: "\e90a";}
+
+.icon-motor:before {content: "\e90b";}
+
+.icon-next-grey:before {content: "\e90c";}
+
+.icon-next-white:before {content: "\e90d";}
+
+.icon-phone-white:before {content: "\e90e";}
+
+.icon-pin:before {content: "\e90f";}
+
+.icon-previous-grey:before {content: "\e910";}
+
+.icon-previous-white:before {content: "\e911";}
+
+.icon-refresh:before {content: "\e912";}
+
+.icon-scotter:before {content: "\e913";}
+
+.icon-seat:before {content: "\e914";}
+
+.icon-shopping-cart:before {content: "\e915";}
+
+.icon-tools:before {content: "\e916";}
+
+.icon-twitter:before {content: "\e917";}
