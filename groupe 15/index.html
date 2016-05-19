@@ -1,0 +1,338 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yakarouler</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="assets/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="assets/jquery-ui-1.11.4/jquery-ui.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.gif"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<header>
+    <div class="inner">
+        <img src="images/logo.png" alt="" class="logo">
+        <input id="tags" type="text" class="recherche" placeholder="Ex: Pneus Peugeot 206">
+        <input type="image" class="valider" src="images/search.png">
+
+        <nav class="quick-access">
+            <ul>
+                <li><span class="icon-shop2"></span><a href="">Magasins</a></li>
+                <li><span class="icon-shopping-cart"></span><a href="">Panier</a></li>
+                <li><span class="icon-profile connexion"></span><a href="" class="connexion">Connexion</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menu">
+        <ul id="sub-nav" class="owl-carousel">
+            <li class="item"><a href="#">Pièces détachées</a></li>
+            <li class="item"><a href="#">Pneuxs & jantes</a></li>
+            <li class="item"><a href="#">Chaines à neiges</a></li>
+            <li class="item"><a href="#" id="single">Batteries</a></li>
+            <li class="item"><a href="#">Huiles</a></li>
+            <li class="item"><a href="#">Accesoires & Entretien</a></li>
+            <li class="item"><a href="#">Son Tel & alarmes</a></li>
+            <li class="item"><a href="#">Attelage & Portage</a></li>
+            <li class="item"><a href="#">Carroserie</a></li>
+            <li class="item"><a href="#">Outilage</a></li>
+            <li class="item"><a href="#">Moto</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<!-- Contenu -->
+<div class="post-cover-contenu">
+    <div class="fond-img-contenu">
+
+
+    </div>
+    <div class="post-title-contenu">
+        <h1>Toutes les pièces pour voiture en 3 clics !</h1>
+    </div>
+
+</div>
+<!-- formulaire -->
+<div class="container">
+    <div class="zone_formulaire" id="carousel">
+        <figure class="formulaire">
+            <h2>Par marque</h2>
+            <form>
+                <input type="text" name="field1" placeholder="Votre marque"/>
+                <input type="text" name="field2" placeholder="Modèle"/>
+                <input type="text" name="field3" placeholder="Motorisation"/>
+                <button class="button" type="button">Rechercher</button>
+            </form>
+        </figure>
+
+        <figure class="formulaire2">
+            <h2>Par carte grise</h2>
+            <form>
+                <p>Entrez le type mine de votre voiture</p>
+                <input type="text" name="field1" placeholder="Ex:DE14K2"/>
+                <p class="type_mine">Où trouver mon type mine ?</p>
+                <button class="button" type="button">Rechercher</button>
+            </form>
+        </figure>
+
+        <figure class="formulaire3">
+            <h2>Par immatriculation</h2>
+            <form>
+                <p>Entrez votre numéro d’immatriculation :</p>
+                <input type="text" name="field1" placeholder="Ex:DE14K2"/>
+                <p>EX:AB - 123 - CD</p>
+                <button class="button" type="button">Rechercher</button>
+            </form>
+        </figure>
+    </div>
+    <section id="options">
+        <p id="navigation">
+            <button id="previous" data-increment="-1">Previous</button>
+            <button id="next" data-increment="1">Next</button>
+        </p>
+    </section>
+</div>
+
+<div id="wrapper-contenu">
+    <!-- Bannière -->
+
+    <div class="bloc_client">
+        <div class="banniere"><img src="images/pub.png"></div>
+        <div id="formulaire_montage" class="traitgauche">
+            <form>
+                <h2>Trouvez un centre de <strong>montage </strong>:</h2>
+                <input type="text" name="field1" placeholder="Code postal"/>
+                <button class="button" type="submit"><span class="icon-right-arrow"></span></button>
+            </form>
+        </div>
+
+
+        <table class="conseil">
+            <tr>
+                <th><strong>9,2/10</strong><br>des clients satisfaits</th>
+                <th><strong>1700</strong><br>centres de montage</th>
+                <th><strong>Pièces</strong><br>neuves &amp; d'origines</th>
+                <th><strong>Paiement</strong><br>100% sécurisé</th>
+            </tr>
+        </table>
+
+        <div class="description">
+            <h1 class="description_text">Yakarouler le spécialiste de la vente de <strong>pièces auto</strong> à prix
+                <strong>discount</strong></h1>
+            <p>Pièces auto, accessoires, Yakarouler vous propose depuis bientôt 10 ans plus de 800 000 références parmi
+                les plus grandes marques. Plaquettes de frein, embrayage, filtre à air... Vous avez le choix. Toutes les
+                pièces détachées sont neuves et d’origine, le tout à prix discount ! N’hésitez plus et trouvez la pièce
+                compatible avec votre auto.</p>
+
+        </div>
+    </div>
+
+    <!--	Catégories		-->
+
+
+    <div class="bloc_categorie">
+
+        <div class="categorie">
+            <h2 class="categorie_text"><img src="" alt=""><span class="icon-bookmark"></span> Toutes les <strong>catégories</strong>
+            </h2>
+
+            <!-- Categorie 1-->
+
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/freinage.png" alt="Freinage"/>
+                        <h2 class="text_categorie">Freinage</h2>
+                    </div>
+                </a></li>
+
+
+            <!-- Categorie 2 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/filtration.png" alt="Filtration"/>
+                        <h2 class="text_categorie">Filtration</h2>
+                    </div>
+                </a></li>
+
+
+            <!-- Categorie 3 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/direction.png" alt="Direction Suspension"/>
+                        <h2 class="text_categorie">Direction Suspension</h2>
+                    </div>
+                </a></li>
+
+
+            <!-- Categorie 4 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/echappement.png" alt="Echappement"/>
+                        <h2 class="text_categorie">Echappement</h2>
+                    </div>
+                </a></li>
+
+
+            <!-- Categorie 5 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/embrayage.png" alt="Embrayage"/>
+                        <h2 class="text_categorie">Embrayage</h2>
+                    </div>
+                </a></li>
+
+            <!-- Categorie 6 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/moteur.png" alt="Moteur"/>
+                        <h2 class="text_categorie">Moteur</h2>
+                    </div>
+                </a></li>
+
+            <!-- Categorie 7 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/demarrage.png" alt="Demarrage Charge"/>
+                        <h2 class="text_categorie">Demarrage Charge</h2>
+                    </div>
+                </a></li>
+
+            <!-- Categorie 8 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/chauffage.png" alt="Chauffage Clim"/>
+                        <h2 class="text_categorie">Chauffage Climatisation</h2>
+                    </div>
+                </a></li>
+
+
+            <!-- Categorie 9 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/visibilite.png" alt="Visibilité"/>
+                        <h2 class="text_categorie">Visibilité</h2>
+                    </div>
+                </a></li>
+
+            <!-- Categorie 10 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/freinage.png" alt="Habitacle"/>
+                        <h2 class="text_categorie">Habitacle</h2>
+                    </div>
+                </a></li>
+
+            <!-- Categorie 11 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/carrosserie.png" alt="Carroserie"/>
+                        <h2 class="text_categorie">Carroserie</h2>
+                    </div>
+                </a></li>
+
+            <!-- Categorie 12 -->
+            <li>
+                <a href="" class="hvr-sweep-to-left">
+                    <div><img src="images/jantes.png" alt="Jantes & Roues"/>
+                        <h2 class="text_categorie">Jantes & Roues</h2>
+                    </div>
+                </a></li>
+
+
+        </div><!-- Fin div catégorie -->
+    </div><!-- Fin bloc_categore-->
+
+
+    <!-- Formulaire_magasin -->
+    <div id="formulaire_magasin" class="traitgauche">
+        <iframe width="300" height="250" frameborder="0" style="border:0 ;margin: -30px"
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2yvlwt965kcRtFG1kccI6S0&key=AIzaSyAW4pAJk5gCLh3gYE8rzSywOhaT_ILgNWI"
+                allowfullscreen></iframe>
+        <form>
+            <h1 class="garage_text"><img src="" alt=""> Garages à <strong>proximité</strong></h1>
+            <h2 class="garage_text2">Ouvert de 8h à 20h</h2>
+            <p><strong>Pièce Autoto Yakarouler</strong></p>
+            <p>100 Avenue André Morizet</p>
+            <p>92100 Boulogne-Billancourt</p>
+            <p>01 70 44 75 75</p>
+
+        </form>
+        <span class="icon-cursor"></span>
+    </div>
+
+
+    <!-- Newsletter -->
+    <div id="formulaire_newsletter" class="traitgauche">
+        <form>
+            <h2>Abonnez-vous à la <strong>newsletter </strong></h2>
+            <input type="text" name="field1" placeholder="Ex:email@mail.com"/>
+            <button class="button" type="submit"><span class="icon-right-arrow"></span></button>
+        </form>
+    </div>
+
+
+</div><!-- fin wrapper -->
+
+<footer>
+    <div id="copyright">
+
+        <div class="mentions">
+            <ul>
+                <h1 class="mention_text">Votre commande</h1>
+                <li><a href="javascript:void(0)"></a>Livraison / Retour</li>
+                <li><a href="javascript:void(0)"></a>Point Relais</li>
+                <li><a href="javascript:void(0)"></a>Paiement</li>
+                <li><a href="javascript:void(0)"></a>Suivi de commande</li>
+                <li><a href="javascript:void(0)"></a>Mentions Légales</li>
+                <li><a href="javascript:void(0)"></a>Conditions générales de vente</li>
+                <li><a href="javascript:void(0)"></a>Conditions de livraison</li>
+                <li><a href="javascript:void(0)"></a>Allez plus loin</li>
+            </ul>
+        </div>
+
+
+        <div class="mentions">
+            <ul>
+                <h1 class="mention_text">Aides & Services</h1>
+                <li><a href="javascript:void(0)"></a>Atelier mécanique gratuit</li>
+                <li><a href="javascript:void(0)"></a>Questions / réponses</li>
+                <li><a href="javascript:void(0)"></a>Créer un compte</li>
+                <li><a href="javascript:void(0)"></a>Parrainez vos amis</li>
+                <li><a href="javascript:void(0)"></a>Sécurité et confidentialité</li>
+                <li><a href="javascript:void(0)"></a>Forum Yakarouler</li>
+                <li><a href="javascript:void(0)"></a>Diagnostic panne</li>
+                <li><a href="javascript:void(0)"></a>Tutoriels</li>
+            </ul>
+        </div>
+
+        <div class="mentions">
+            <ul>
+                <h1 class="mention_text">A propos de Yakarouler</h1>
+                <li><a href="javascript:void(0)"></a>A propos de yakarouler</li>
+                <li><a href="javascript:void(0)"></a>Nous contacter</li>
+                <li><a href="javascript:void(0)"></a>Yakaruler recrute</li>
+                <li><a href="javascript:void(0)"></a>Magasin</li>
+                <li><a href="javascript:void(0)"></a>Devenez centre de montage</li>
+                <li><a href="javascript:void(0)"></a>Solidarité</li>
+                <li><a href="javascript:void(0)"></a>Avis client</li>
+                <li><a href="javascript:void(0)"></a>Devenez affilé</li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+<script src="assets/jquery-2.2.3.js"></script>
+<script src="assets/modernizr.js"></script>
+<script src="assets/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script src="assets/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
