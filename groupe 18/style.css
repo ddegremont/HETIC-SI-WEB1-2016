@@ -1,0 +1,531 @@
+/*GENERAL*/
+
+@font-face {
+    font-family: 'gotham-bold';
+    src: url('font/gotham/gotham-bold.TTF');
+}
+
+@font-face {
+    font-family: 'gotham-light';
+    src: url('font/gotham/gotham-ligth.OTF')
+}
+
+body {
+    font-family: 'gotham-bold';
+}
+
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 75px;
+    font-size: 14px;
+    color: #59595b !important;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+header img {
+    width: 14%;
+    display: inline-block;
+    float: left;
+}
+
+header a {
+    color: #59595b;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ea611b;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+header a:first-child {
+    margin-left: 100px;
+}
+
+header ul {
+    float: left;
+    padding-top: 30px;
+    
+
+}
+
+header .plus {
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+header .connexion {
+    margin-left: 70px;
+    padding-right: 20px;
+}
+
+header .recherche {
+    padding-left: 20px;
+    border-left: solid 2px #59595b;
+}
+
+header .menu{
+    display: none;
+}
+header .menu1{
+    display: none;
+}
+
+
+/*FIN HEADER*/
+
+
+/*BLOC-1*/
+
+.bloc-1 {
+    width: 100%;
+    height: 605px;
+    background: url(img/car_background.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*FIN BLOC-1*/
+
+
+/*BLOC 2*/
+
+.bloc-2 h2 {
+    padding-top: 90px;
+    text-align: center;
+    color: #4d4138;
+    font-size: 30px;
+}
+
+.bloc-2 h3 {
+    color: #ea611b;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bloc-2 .fond {
+    width: 1240px;
+    height: 815px;
+    margin: 0 auto;
+    background-color: #f7f6f6;
+    margin-top: 35px;
+    padding-top: 50px;
+}
+
+
+/**/
+
+.fond .looking {
+    float: left;
+    width: 513px;
+    height: 723px;
+    background-color: #ebebeb;
+    display: block;
+    margin:auto;
+    margin-left: 35px;
+}
+
+
+
+.looking li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.looking li:first-child {
+    margin-left: 40px;
+}
+
+.looking ul {
+    margin-bottom: 45px;
+}
+
+.bloc-2 .looking h4 {
+    color: #7e7e7f;
+    font-size: 12px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.bloc-2 .looking input {
+    width: 380px;
+    height: 40px;
+    margin-left: 30px;
+    border: solid 1px #139bbd;
+    outline: none;
+    border-radius: 2px;
+    margin-bottom: 45px;
+}
+
+.bloc-2 select {
+    width: 380px;
+    height: 40px;
+    border: solid 1px #139bbd;
+    outline: none;
+    margin-left: 30px;
+    margin-bottom: 45px;
+    border-radius: 0;
+    font-family: 'gotham-light';
+    font-size: 12px;
+}
+
+.bloc-2 .looking button {
+    width: 150px;
+    height: 45px;
+    background-color: #139bbd;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-family: 'gotham';
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: -20px;
+}
+
+
+/**/
+
+.bloc-2 .immat {
+    width: 500px;
+    height: 250px;
+    background-color: #ebebeb;
+    float: right;
+    margin-bottom: 150px;
+    margin-right: 35px;
+    margin-top: 50px;
+}
+
+.bloc-2 .CG {
+    width: 500px;
+    height: 250px;
+    background-color: #ebebeb;
+    float: right;
+    margin-right: 35px;
+}
+
+.immat .title {
+    width: 100%;
+    height: 70px;
+    background-color: #139bbd;
+    color: white;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.CG .title {
+    width: 100%;
+    height: 70px;
+    background-color: #139bbd;
+    color: white;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.title img {
+    margin-left: 20px;
+}
+
+.immat img {
+    float: left;
+    margin-top: 15px;
+    padding-right: 30px;
+}
+
+.CG img {
+    float: left;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.bloc-2 .immat input {
+    width: 300px;
+    height: 30px;
+    border: solid 1px #139bbd;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+
+.bloc-2 .CG input {
+    width: 300px;
+    height: 30px;
+    border: solid 1px #139bbd;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+
+.immat button {
+    width: 40px;
+    height: 32px;
+    border: none;
+    background-color: #ea611b;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.CG button {
+    width: 40px;
+    height: 32px;
+    border: none;
+    background-color: #ea611b;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.bloc-2 .immat h4 {
+    color: #7e7e7f;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-top: 50px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.bloc-2 .CG h4 {
+    color: #7e7e7f;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-top: 50px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+
+/*FIN BLOC 2*/
+
+
+/*BLOC 3*/
+
+.bloc-3 h2 {
+    padding-top: 150px;
+    text-align: center;
+    color: #4d4138;
+    font-size: 30px;
+}
+
+.bloc-3 h3 {
+    color: #ea611b;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 100px;
+}
+
+ bloc-3 .blue h3 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 600px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+     z-index: 2;
+}
+ #features{
+     background-color: #ebebeb;
+     padding-top:20px;
+     padding-left: 10px;;
+ }
+
+  #see{
+      width: 300px;
+      height: 75px;
+      background-color: #139bbd;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      font-family: 'gotham';
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 20px;
+      margin: 0 auto;
+      display: block;
+      position: relative;
+      top: -20px;
+ }
+
+
+/*FIN BLOC 3*/
+
+
+/*MARQUES*/
+
+.marques {
+    width: 100%;
+    height: 120px;
+    background-color: #ea611b;
+    margin-top: 100px;
+}
+
+.marques h2 {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.marques img {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.img_marques {
+    margin-left: 70px;
+}
+
+
+/*FIN MARQUES*/
+
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 310px;
+    background-color: #ebebeb;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'gotham-light';
+    color: #4d4138;
+    padding-top: 30px;
+}
+
+footer a {
+    color: #4d4138;
+    text-decoration: none;
+}
+
+footer span {
+    color: #ea611b;
+    font-family: 'gotham-bold';
+}
+
+
+/**/
+
+footer .un {
+    width: 250px;
+    height: 270px;
+    border-right: solid 2px white;
+    margin-left: 80px;
+    float: left;
+    padding-right: 80px;
+}
+
+footer .un h2 {
+    font-family: 'gotham-bold';
+    color: #ea611b;
+    padding-top: 20px;
+}
+
+footer .un li {
+    line-height: 25px;
+}
+
+
+/**/
+
+footer .deux {
+    float: left;
+    width: 280px;
+    height: 270px;
+    border-right: solid 2px white;
+    margin-left: 80px;
+    line-height: 20px;
+    padding-right: 80px;
+}
+
+footer .deux h2 {
+    padding-top: 20px;
+}
+
+footer .deux img {
+    margin-right: 10px;
+}
+
+footer .deux p {
+    margin-top: 20px;
+}
+
+footer .deux .reseaux {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.deux .reseaux img {
+    margin-left: 10px;
+}
+
+
+/**/
+
+footer .trois {
+    float: left;
+    width: 280px;
+    height: 270px;
+    margin-left: 80px;
+    line-height: 20px;
+}
+
+.trois h2 {
+    padding-top: 20px;
+    color: #ea611b;
+    font-family: 'gotham-bold';
+}
+
+.trois p {
+    margin-top: 20px;
+}
+
+footer .trois input {
+    width: 200px;
+    height: 25px;
+    border: solid 1px #139bbd;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.trois button {
+    width: 100px;
+    height: 30px;
+    background-color: #ea611b;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.trois .card {
+    display: block;
+    margin-top: 30px;
+}
+
+
+/*FIN FOOTER*/
