@@ -1,0 +1,191 @@
+h2{
+    font-size: 14px;
+    color: #59595B;
+}
+
+#searchbar{
+    width: 100%;
+}
+
+/*REMPLISSAGE*/
+
+#remplissage img{
+    margin-right: 30px;
+}
+
+#remplissage>div{
+    padding: 0
+}
+
+#remplissage>div>div, #wrapper-pneus{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    height: 45px;
+    -moz-transition: 0.20s;
+    -webkit-transition: 0.20s;
+    -ms-transition: 0.20s;
+    -o-transition: 0.20s;
+    transition: 0.20s;
+    padding: 0;
+}
+
+#remplissage .title{
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    font-family: "Gotham bold", sans-serif;
+    background: #009BC1;
+}
+
+#produitsMobile div, #pneusMobile{
+    height: 45px;
+    background: #59595B;
+    box-sizing: border-box;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+#produitsMobile h3, #pneusMobile h3{
+    color: #fff;
+    font-size: 14px;
+    font-family: "Gotham bold", sans-serif;
+}
+
+#remplissage{
+    padding: 0;
+}
+
+#remplissage .valider{
+    width: 34px;
+    height: 28px;
+    margin: 0;
+    background: #fff;
+    color: #59595B;
+
+}
+
+#remplissage .valider:hover{
+    color: #59595B;
+}
+
+#carte .valider{
+    margin-top: 24px;
+}
+
+#pneusMobile{
+    margin-bottom: 20px;
+    background: #FE6A04;
+    padding: 0 15px!important;
+}
+
+#wrapper-bouton-produits{
+    display: none;
+}
+
+#wrapper-pneus .btn-group{
+    margin-bottom: 10px;
+}
+
+#wrapper-pneus>div{
+    margin: 0;
+}
+
+#wrapper-pneus>div>div{
+    margin-bottom: 10px;
+}
+
+#jantes{
+    margin: 0;
+}
+
+label{
+    font-size: 12px;
+}
+
+#promo{
+    padding: 0 20px;
+}
+
+#promo>div{
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#motul img{
+    display: none;
+}
+
+#echappement{
+    padding-bottom: 30px;
+}
+
+#menu-produits{
+    top: 0;
+    position: relative;
+}
+
+#pubMobile{
+    width: 100%;
+}
+
+#reassurance>p{
+    font-size: 15px;
+    line-height: normal;
+    padding: 20px;
+}
+
+#engagements>div{
+    padding: 0 20px;
+}
+
+#jantes {
+    clear: both;
+}
+
+#motul{margin: 0}
+
+#engagements img{
+    width: 70%;
+}
+
+#engagements p{
+    font-size: 13px;
+}
+
+#social{
+    border-bottom: 1px solid #fff;
+}
+
+#footer h4{
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Gotham bold", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+#footer img{
+    display: inline-block;
+}
+
+#footer>div{
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+    max-height: 40px;
+    -moz-transition: max-height 0.20s;
+    -webkit-transition: max-height 0.20s;
+    -ms-transition: max-height 0.20s;
+    -o-transition: max-height 0.20s;
+    transition: max-height 0.20s;
+}
+
+#footer{
+    padding: 0 20px;
+}
+
+
+#drop2 ul, #drop3 ul, #drop4 ul, #drop5 ul, #drop6 ul, #drop7 ul, #drop8 ul, #drop9 ul, #drop10 ul, #drop11 ul, #drop12 ul{
+    left: 0;
+}

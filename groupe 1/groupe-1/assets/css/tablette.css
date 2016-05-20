@@ -1,0 +1,189 @@
+/*MENU BURGER*/
+
+#burger{
+    display: block;
+    height: 25px;
+    width: 25px;
+    top: 16px;
+    position: absolute;
+}
+
+#burger div{
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    -moz-transition: transform 0.20s;
+    -webkit-transition: transform 0.20s;
+    -ms-transition: transform 0.20s;
+    -o-transition: transform 0.20s;
+    transition: transform 0.20s;
+}
+#barre1{  top: 0;  }
+
+#barre2{  top: 9px;  }
+
+#barre3{  top: 18px;  }
+
+#menuBurger{
+    top: 0;
+    padding-top: 55px;
+    position: fixed;
+    background: #606060;
+    height: 120vh;
+    width: 100%;
+    z-index: 999;
+    left: -100%;
+    -moz-transition: 0.20s;
+    -webkit-transition: 0.20s;
+    -ms-transition: 0.20s;
+    -o-transition: 0.20s;
+    transition: 0.20s;
+}
+
+#menuBurger h2{
+    color: #fff;
+    font-size: 14px;
+}
+
+#firstMenu{
+    padding: 0;
+}
+
+#firstMenu li{
+    height: 50px;
+    width: 100%;
+    background: #009BC1;
+    border-bottom: 1px solid #fff;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+#firstMenu span{
+    font-family: "Gotham bold", sans-serif;
+}
+
+#firstMenu a{
+    padding: 18px 0;
+}
+
+#menuBurger a:not(#aide){
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+#menuBurger a:hover{
+    text-decoration: none;
+}
+
+#secondMenu{
+    padding: 0;
+}
+
+#secondMenu li{
+    height: 35px;
+    border-bottom: 1px solid #777777;
+    padding-left: 20px;
+}
+
+#firstLi{
+    background: #FE6A04;
+}
+
+#secondMenu a{
+    padding-top: 10px;
+    font-family: "Gotham bold", sans-serif;
+}
+
+#aide{
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+}
+
+/*NAV*/
+
+
+#navMobile{
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    background: #333333;
+    top: 0;
+    padding-left: 19px;
+    z-index: 1000;
+}
+
+#navMobile a{
+    display: inline-block;
+    height: 100%;
+}
+
+#panierMobile i, #logMobile i{
+    display: block;
+    font-size: 22px;
+    margin: 0;
+}
+
+
+#logoMobile{
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: "Gotham bold", sans-serif;
+    display: inline-block;
+    margin-left: 50px;
+    color: #fff;
+}
+
+#logMobile, #panierMobile{
+    margin: 0;
+    background: none;
+    border: none;
+    float: right;
+    width: 20%;
+    font-size: 9px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#logMobile{
+    background: #FE6A04;
+    color: #fff;
+}
+
+#logMobile:hover{
+    color: #FE6A04;
+    background: #fff;
+}
+
+#panierMobile{
+    background: #fff;
+    color: #FE6A04;
+}
+#panierMobile:hover{
+    color: #fff;
+    background: #FE6A04;
+}
+
+#logMobile img, #panierMobile img{
+    display: block;
+    margin: auto;
+}
+#panierMobile img{
+    margin-bottom: 3px;
+}
+
+body>.container-fluid{
+    margin-top: 55px;
+}
+
+#searchbar input{
+    height: 30px;
+    border: 1px solid #009BC1;
+    border-radius: 5px;
+}
