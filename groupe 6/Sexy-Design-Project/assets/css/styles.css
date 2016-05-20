@@ -48,11 +48,15 @@ nav li > a:hover{
 
     height:620px;
     max-width: 100%;
-    background-image: url('../../image/pattern.png');
+    background-image: url('../../image/exploding-cars-5-1.jpg');
     background-size: cover;
     padding: 190px 0 30px;
     overflow: hidden;
 
+}
+
+#home h2{
+    margin-top: 10px;
 }
 
 .glyphicon-chevron-down {
