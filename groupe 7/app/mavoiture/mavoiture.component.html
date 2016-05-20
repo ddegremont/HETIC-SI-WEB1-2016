@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div (mouseover)="clickUn()" class="bouton col-xs-4">Modèle</div>
+    <div (mouseover)="clickDeux()" class="bouton col-xs-4">Immatriculation</div>
+    <div (mouseover)="clickTrois()" class="bouton col-xs-4">Carte Grise</div>
+  </div>
+  <form>
+    <fieldset class="form-group">
+      <input type="text" class="form-control" id="marqueVoiture" placeholder="{{contenu}}" [hidden]="hide1">
+      <input type="text" class="form-control" id="modelVoiture" placeholder="{{contenu2}}" [hidden]="hide2">
+      <input type="text" class="form-control" id="moteurVoiture" placeholder="{{contenu3}}" [hidden]="hide3">
+      <input type="text" class="form-control" id="moteurVoiture" placeholder="{{contenu4}}" [hidden]="hide4">
+      <input type="text" class="form-control" id="moteurVoiture" placeholder="{{contenu5}}" [hidden]="hide5">
+    </fieldset>
+    <div class="row">
+      <button class="col-xs-12">OK</button>
+    </div>
+  </form>
+
+  <img src="./app/img/bkg-voiture.jpg" alt="">
+</div>
