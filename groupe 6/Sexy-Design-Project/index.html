@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yakarouler.com</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<section id="header">
+    <nav class="navbar nav navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="image/Logo_yakarouler.png"> </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Nos magasins <span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Catégories <span class=" fa fa-caret-down"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown"></li>
+                            <li><a href="#">Pièces détachées</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Pneu & jantes</a></li>
+                            <li><a href="#">Chaînes à neige</a></li>
+                            <li><a href="#">Batteries</a></li>
+                            <li><a href="#">Huile</a></li>
+                            <li><a href="#">Accessoire & entretien</a></li>
+                            <li><a href="#">Son Tel & alarmes</a></li>
+                            <li><a href="#">Carosserie</a></li>
+                            <li><a href="#">Outillage</a></li>
+                            <li><a href="#">Moto</a></li>
+                            <li><a href="#">Centres de montages</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Se connecter</a></li>
+                    <li><a href="#">Vos commandes</a></li>
+                </ul>
+                <form class="navbar-form search" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control navbar_input_search" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</section>
+<section id="home">
+
+    <div class="container">
+        <div class="row text-center testeuh">
+            <img class="logo" src="image/Logo_yakarouler.png" alt="">
+            <h1 class="color">Les meilleurs prix, services compris</h1>
+            <h2>1007 centres de montages</h2>
+            <div class="row btn-group-lg">
+                <button class="btn orange">Trouver la pièce idéale</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="recherche">
+    <div class="container">
+        <h1>Toutes les pièces pour voiture en 3 clics !</h1>
+        <div class="row categories text-center">
+            <ul>
+                <li class="categ-car">Voiture</li>
+                <li class="categ-moto">Motos</li>
+            </ul>
+        </div>
+        <div class="voiture">
+            <!-- /.container -->
+            <div class="container col-md-4 col-sm-12 col-lg-4 search-form">
+                <form class="well form-horizontal" action=" " method="post" id="contact_form2">
+                    <fieldset>
+                        <div class="fa fa-tag fa-5x"></div>
+                        <legend>Recherche par immatriculation</legend>
+                        <div class="form-group">
+                            <label class="col-md-12 control-label">Numéro d'immatriculation</label>
+                            <div class="col-md-12 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-tag"></i></span>
+                                    <input name="first_name" placeholder="173-PD-34" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label"></label>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-warning">Rechercher <span
+                                        class="glyphicon glyphicon-search"></span></button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="container col-md-4 col-sm-12 col-lg-4">
+                <form class="well form-horizontal" id="contact_form">
+                    <fieldset>
+                        <div class="fa fa-car fa-3x" aria-hidden="true"></div>
+                        <legend>Recherche par modèle</legend>
+                        <div class="form-group">
+                            <label class="col-md-12 control-label">Modèle</label>
+                            <div class="col-md-12 selectContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="state" class="form-control selectpicker">
+                                        <option value=" ">Choisissez votre modèle</option>
+                                        <option>Alabama</option>
+                                        <option>Alaska</option>
+                                        <option>Arizona</option>
+                                        <option>Arkansas</option>
+                                        <option>California</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-12 control-label">Marque</label>
+                            <div class="col-md-12 selectContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="state" class="form-control selectpicker">
+                                        <option value=" ">Choisissez votre marque</option>
+                                        <option>Alabama</option>
+                                        <option>Alaska</option>
+                                        <option>Arizona</option>
+                                        <option>Arkansas</option>
+                                        <option>California</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-12 control-label">Motorisation</label>
+                            <div class="col-md-12 selectContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="state" class="form-control selectpicker">
+                                        <option value=" ">Choisissez votre motorisation</option>
+                                        <option>Alabama</option>
+                                        <option>Alaska</option>
+                                        <option>Arizona</option>
+                                        <option>Arkansas</option>
+                                        <option>California</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label"></label>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-warning">Rechercher <span
+                                        class="glyphicon glyphicon-search"></span></button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="container col-md-4 col-sm-12 col-lg-4">
+                <form class="well form-horizontal" action=" " method="post" id="contact_form3">
+                    <fieldset>
+                        <div class=" fa fa-credit-card-alt fa-5x"></div>
+                        <legend class="">Par carte grise</legend>
+                        <div class="form-group">
+                            <label class="col-md-12 control-label">Numéro de carte grise</label>
+                            <div class="col-md-12 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i
+                                            class="glyphicon glyphicon-credit-card"></i></span>
+                                    <input name="first_name" placeholder="093495757" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label"></label>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-warning">Rechercher <span
+                                        class="glyphicon glyphicon-search"></span></button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="container  col-md-12 col-sm-12 col-lg-12 none moto">
+            <form class="well form-horizontal" id="contact_form4">
+                <fieldset>
+                    <div class="fa fa-motorcycle fa-3x" aria-hidden="true"></div>
+                    <legend>Recherche par modèle</legend>
+                    <div class="form-group">
+                        <label class="col-md-12 control-label">Modèle</label>
+                        <div class="col-md-12 selectContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                <select name="state" class="form-control selectpicker">
+                                    <option value=" ">Choisissez votre modèle</option>
+                                    <option>Alabama</option>
+                                    <option>Alaska</option>
+                                    <option>Arizona</option>
+                                    <option>Arkansas</option>
+                                    <option>California</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-12 control-label">Marque</label>
+                        <div class="col-md-12 selectContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                <select name="state" class="form-control selectpicker">
+                                    <option value=" ">Choisissez votre marque</option>
+                                    <option>Alabama</option>
+                                    <option>Alaska</option>
+                                    <option>Arizona</option>
+                                    <option>Arkansas</option>
+                                    <option>California</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-12 control-label">Cylindré</label>
+                        <div class="col-md-12 selectContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                <select name="state" class="form-control selectpicker">
+                                    <option value=" ">Choisissez votre cylindré</option>
+                                    <option>Alabama</option>
+                                    <option>Alaska</option>
+                                    <option>Arizona</option>
+                                    <option>Arkansas</option>
+                                    <option>California</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-12 control-label">Année</label>
+                        <div class="col-md-12 selectContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                <select name="state" class="form-control selectpicker">
+                                    <option value=" ">Choisissez votre année</option>
+                                    <option>Alabama</option>
+                                    <option>Alaska</option>
+                                    <option>Arizona</option>
+                                    <option>Arkansas</option>
+                                    <option>California</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-4 control-label"></label>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-warning">Rechercher <span
+                                    class="glyphicon glyphicon-search"></span></button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div><!-- /.container -->
+    </div>
+</section>
+
+
+<section id="categories">
+    <div class="container">
+        <div class="row text-center">
+            <h1>Yakarouler le spécialiste de la vente de pièces auto<br> à prix discount</h1>
+            <h4>
+                Pièces auto, accessoires, Yakarouler vous
+                propose depuis bientôt 10 ans plus de 800 000
+                références parmi les plus grandes marques.
+                Plaquettes de frein, embrayage, filtre à air...
+                Vous avez le choix. Toutes les pièces détachées
+                sont neuves et d’origine, le tout à prix discount !
+                N’hésitez plus et trouvez la pièce compatible avec votre auto.
+            </h4>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Pneu & jantes</h4>
+                        <p>
+                            <button href="" class="btn btn-danger" title="Zoom">Voir</button>
+                        </p>
+                    </div>
+                    <img src="image/pneu%20et%20jantes-1.png" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Outillage</h4>
+                        <p><button href="" class="btn btn-danger" title="Zoom">Voir</button></p>
+                    </div>
+                    <img src="image/outillage.png" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Carosserie</h4>
+                        <p>
+                            <button href="" class="btn btn-danger" title="Zoom">Voir</button>
+                        </p>
+                    </div>
+                    <img src="image/carroserie.png" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Pièces détachées</h4>
+                        <p>
+                            <button href="" class="btn btn-danger" title="Zoom">Voir</button>
+                        </p>
+                    </div>
+                    <img src="image/piecedetaché.png" alt="...">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Produit d'entretien</h4>
+                        <p>
+                            <button href="" class="btn btn-danger" title="Zoom">Voir</button>
+                        </p>
+                    </div>
+                    <img src="image/entretien.png" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Huile</h4>
+                        <p>
+                            <button href="" class="btn btn-danger" title="Zoom">Voir</button>
+                        </p>
+                    </div>
+                    <img src="image/huile.png" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Batterie</h4>
+                        <p>
+                            <button href="" class="btn btn-danger" title="Zoom">Voir</button>
+                        </p>
+                    </div>
+                    <img src="image/batterie-1.png" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Chaines à neige</h4>
+                        <p>
+                            <button href="" class="btn btn-danger" title="Zoom">Voir</button>
+                        </p>
+                    </div>
+                    <img src="image/chaineaneige.png" alt="...">
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>Attelages</h4>
+                        <p>
+                            <button href="" class="btn btn-danger" title="Zoom">Voir</button>
+                        </p>
+                    </div>
+                    <img src="image/attelage.png" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="brand-carousel">
+    <h2>Les grandes marques nous font confiance :</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="brand-carousel">
+
+
+                    <div class="item"><img src="image/1280px-Bosch-brand.png" class="center-block" alt="Logo Title">
+                    </div>
+                    <div class="item"><img src="image/lpr.jpg" class="center-block" alt="Logo Title">
+                    </div>
+                    <div class="item"><img src="image/monroe.jpg" class="center-block" alt="Logo Title">
+                    </div>
+                    <div class="item"><img src="image/bosal.jpg" class="center-block" alt="Logo Title">
+                    </div>
+                    <div class="item"><img src="image/brembo.jpg" class="center-block" alt="Logo Title">
+                    </div>
+                    <div class="item"><img src="image/lizarte.jpg" class="center-block" alt="Logo Title">
+                    </div>
+                    <div class="item"><img src="image/trw.jpg" class="center-block" alt="Logo Title">
+                    </div>
+                    <div class="item"><img src="image/valeo.jpg" class="center-block" alt="Logo Title">
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-3">
+                <div class="foot-header">
+                    Votre commande
+                </div>
+                <div class="foot-links">
+                    <a href="">Livraison retour</a>
+                    <a href="">Point relais</a>
+                    <a href="">Paiement</a>
+                    <a href="">Suivi de commande</a>
+                    <a href="">Satisfait ou remboursé</a>
+                    <a href="">Mentons égales</a>
+                    <a href="">CGV</a>
+                    <a href="">Conditions de livraison</a>
+
+                </div>
+            </div><!--/col-sm-3-->
+            <div class="col-sm-3">
+                <div class="foot-header"> Aides & services</div>
+                <div class="foot-links">
+                    <a href="">Atelier mécanique gratuit</a>
+                    <a href="">FAQ</a>
+                    <a href="">Créer un compte</a>
+                    <a href="">Mon compte</a>
+                    <a href="">Parrainez vos amis</a>
+                    <a href="">Sécurité et confidentialité</a>
+                    <a href="">Connaitre sa côte Argus</a>
+                    <a href="">Blog du Dico de l'auto</a>
+                    <a href="">Forum Yakarouler</a>
+                    <a href="">Diagnostic panne</a>
+                    <a href="">Tutoriels</a>
+
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="foot-header"> A propos de Yakarouler</div>
+                <div class="foot-links">
+                    <a href="">A propos de Yakarouler</a>
+                    <a href="">Nous contacter</a>
+                    <a href="">Yakarouler recrute</a>
+                    <a href="">Magasin</a>
+                    <a href="">Devenez centre de montage</a>
+                    <a href="">Solidarité</a>
+                    <a href="">Avis client</a>
+                    <a href="">Donner votre avis sur Yakarouler</a>
+                    <a href="">Devenez affilié</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="foot-header"> Newsletter</div>
+                <div class="foot-links">
+                    <input class="form-control" placeholder="Votre e-mail" type="text">
+                    <button class="btn btn-primary text-center">S'abonner</button>
+                </div>
+            </div>
+
+
+        </div><!--/row-->
+        <div class="row">
+            <div class="row" id="final-footer">
+                <div class="col-sm-12 text-center">
+        	<span class="fa-stack fa-lg">
+              <i class="fa fa-circle text-primary fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-circle text-info fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-circle text-danger fa-stack-2x"></i>
+              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+            </span>
+                </div>
+            </div>
+        </div><!--/container-->
+    </div><!--/footer--></div>
+
+
+<div id="push"></div>
+
+<script src="assets/js/jquery-2.2.3.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
