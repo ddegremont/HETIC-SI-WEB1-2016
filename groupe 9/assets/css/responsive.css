@@ -1,0 +1,149 @@
+@media screen and (max-width: 1024px) {
+    body{
+        overflow: hidden;
+    }
+    main{
+        height: 668px;
+    }
+    header{
+        top: 0;
+    }
+    .roue-deco{
+        top: 60px;
+        width: 200px;
+        height: 440px;
+    }
+    .mobileMenu ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mobileMenu ul li{
+        width: 50%;
+    }
+    .burger{display: block}
+
+    .search-bar-banner{
+        display: block;
+        margin-bottom: 37px;
+    }
+    .banniere{
+        background: url("../img/bannier-tab.png") no-repeat bottom;
+    }
+    .search-bar{display: none}
+
+    .search-car1{
+        padding-top: 20px;
+    }
+    .search-car1 form{
+        margin-top: 15px;
+    }
+    .search-car1 p{
+        margin: 10px 0 0;
+    }
+    .content{
+        display: none;
+    }
+    footer{
+      display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    body{
+        overflow-y: hidden;
+    }
+    header{
+        justify-content: space-around;
+    }
+    .mobileMenu ul li{
+        width: 100%;
+    }
+    h1 img{
+        height: 38px;
+        width: 150px;
+    }
+    body{
+        overflow: scroll;
+    }
+    .promo{
+        display: none;
+    }
+    .roue-deco{
+        top: 380px;
+        height: 320px;
+        width: 187px;
+        z-index: -1;
+    }
+    .piece-deco{
+        top: 950px;
+        z-index: -1;
+    }
+    .banniere{
+        margin-top: 100px;
+        width: 100%;
+        padding: 20px 10%;
+        display: block;
+        background-image: linear-gradient(180deg, #eb3349 0%, #f45c43 100%);
+    }
+    .banniere p{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 39px;
+    }
+    .banniere form{
+        margin: 40px 30px 90px;
+    }
+    .banniere ul{
+        display: none;
+    }
+    .primary-nav{
+        display: none;
+    }
+    .mobile{
+        height: 88px;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile p{
+        width: 292px;
+        text-align: center;
+        color: #404040;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .mobileSearchCar{
+        display: flex !important;
+        margin: 50px;
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search form{
+        width: 292px;
+    }
+    .mobileOU{
+        margin-top: 80px;
+        width: 100%;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ed6625;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 3.14px;
+        line-height: 28px;
+    }
+}

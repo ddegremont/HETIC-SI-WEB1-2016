@@ -1,0 +1,21 @@
+{
+  "name": "SI_6",
+  "authors": [
+    "quengeorges <quenting92@gmail.com>"
+  ],
+  "description": "Semaine intensive design sexy",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6"
+  }
+}
